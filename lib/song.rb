@@ -34,27 +34,15 @@ class Song
     
     def self.genre_count
       genre_count = {} 
-      @@genres.each {|genre| genre}
+      @@genres.each {|genre| genre_count[genre] ||= [] genre_count += 1}
       
       
-       roster[grade] ||= []
- roster[grade] << student_name 
- 
- OR YOU CAN DO IT THIS WAY
-#   if roster[grade] 
-#         roster[grade] << student_name 
-#   else
-#     roster[grade] = []
-#     roster[grade] << student_name 
- if genre_count[genre]
-        genre_count[genre] += 1 
-      else
-        genre_count[genre] = 1
-# end
-end
+# if genre_count[genre]
+#         genre_count[genre] += 1 
+#       else
+#         genre_count[genre] = 1
 
-      # genre => genre_count.length}
-      
+# end
     end
     
     def self.artist_count
