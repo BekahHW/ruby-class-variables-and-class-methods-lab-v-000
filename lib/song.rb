@@ -9,6 +9,7 @@ class Song
     @genre = genre
     
     @@count += 1
+    @@genres << genre
     
    end
    
@@ -19,6 +20,7 @@ class Song
    end
    
    def genres
+     @@genres = []
     genres.uniq
   end
     
