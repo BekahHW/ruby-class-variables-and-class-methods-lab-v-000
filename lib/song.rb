@@ -33,12 +33,14 @@ class Song
    end
     
     def genre_count
-      @genre = {}  
+      genre_count = {} 
+      genre_count.each {|genre| genre}
       
     end
     
-    def arist_count
-      @artist = {}  
+    def artist_count
+      artist_count = {} 
+      artist_count.each{|artist| artist}
     end
 
 end
