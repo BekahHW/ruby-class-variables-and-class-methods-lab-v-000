@@ -30,5 +30,14 @@ class Song
      artists.uniq
    end
     
-   
+#     roster[grade] ||= []
+# roster[grade] << student_name 
+
+#   if roster[grade] 
+#         roster[grade] << student_name 
+#   else
+#     roster[grade] = []
+#     roster[grade] << student_name 
+# end
+
 end
