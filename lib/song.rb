@@ -34,7 +34,7 @@ class Song
     
     def self.genre_count
       genre_count = {} 
-      genre_count.each {|key, value| "#{key} #{value.length}"}
+      @@genre.each {|key, value| "#{key} #{value.length}"}
       # genre => genre_count.length}
       
     end
