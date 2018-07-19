@@ -32,6 +32,8 @@ class Song
      @@artists.uniq
    end
     
-    
+    def genre.count
+      @genre = {}  
+    end
 
 end
