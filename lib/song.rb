@@ -21,7 +21,7 @@ class Song
    
    def genres
      @@genres = []
-    genres.uniq
+     genres.uniq
   end
     
    
