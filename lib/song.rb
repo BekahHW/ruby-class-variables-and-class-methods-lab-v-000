@@ -36,6 +36,19 @@ class Song
       genre_count = {} 
       @@genres.each {|genre| genre}
       
+      
+       roster[grade] ||= []
+ roster[grade] << student_name 
+ 
+ OR YOU CAN DO IT THIS WAY
+#   if roster[grade] 
+#         roster[grade] << student_name 
+#   else
+#     roster[grade] = []
+#     roster[grade] << student_name 
+# end
+end
+
       # genre => genre_count.length}
       
     end
