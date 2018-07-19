@@ -28,6 +28,7 @@ class Song
    def artists
      @@artists = []
      artists.uniq
+   end
     
    
 end
