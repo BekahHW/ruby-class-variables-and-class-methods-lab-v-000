@@ -14,7 +14,7 @@ class Song
    
    @@count = 0
    
-   def count
+   def .count
      @@count
    end
    
