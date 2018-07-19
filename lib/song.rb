@@ -32,7 +32,7 @@ class Song
      @@artists.uniq
    end
     
-    def genre_count
+    def self.genre_count
       genre_count = {} 
       @@genre.each {|key, value| "#{key} #{value.length}"}
       # genre => genre_count.length}
